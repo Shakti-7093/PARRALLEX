@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://i.ytimg.com/vi/FWssP4mVL00/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    /* background-blend-mode: lighten; */
+}
+
+.section-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://exchange4media.gumlet.io/news-photo/108637-deepika.jpg?w=400&dpr=2.6');
+}
+
+.section-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://assets.traveltriangle.com/blog/wp-content/uploads/2018/03/acj-2003-beautiful-landscapes-around-the-world-23.jpg');
+}
+
+.section-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.hellomagazine.com/horizon/landscape/35101d9c6dbf-queen-letizia-in-red.jpg');
+}
